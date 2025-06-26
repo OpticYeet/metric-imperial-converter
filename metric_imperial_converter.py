@@ -1,12 +1,11 @@
 import sys
-import customtkinter
 
 # set defaults for ctk
-customtkinter.set_appearance_mode("system")
-customtkinter.set_default_color_theme("dark-blue")
+
 
 # gui creation
 
+# test line of code for git
 
 choice = ""
 
@@ -38,7 +37,7 @@ def convertToFahrenheit(celsius):
     print(f"Fahrenheit: {fahrenheitRounded}")
     takeInput()
 
-# check metric -> imperial or imperial -> metric
+    # check metric -> imperial or imperial -> metric
 
 
 def takeInput():
@@ -71,5 +70,4 @@ def takeInput():
     else:
         print("Invalid input. Please try again.")
 
-
-takeInput()
+    takeInput()
